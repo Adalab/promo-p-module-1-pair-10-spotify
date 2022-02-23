@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.intro {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.lista {
+  list-style: none;
+}
+.menu {
+  display: inline-block;
+}
+
+.menu_item {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer {
+  background-color: black;
+  color: gray;
+}
+
+.menu_item_footer {
+  color: gray;
+  text-decoration: none;
+}
+
+.logo {
+  width: 200px;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+}
+
+.section_imagen {
+  background-image: url("../images/premium_dancer.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-color: cornflowerblue;
+  background-position: bottom right;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: ;
+}
