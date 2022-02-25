@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .intro {
@@ -12,6 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 .lista {
   list-style: none;
@@ -28,11 +30,16 @@
 .footer {
   background-color: black;
   color: gray;
+  padding: 40px 20px 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .menu_item_footer {
   color: gray;
   text-decoration: none;
+  display: inline-block;
 }
 
 .logo {
@@ -45,7 +52,7 @@
 }
 
 .section_imagen {
-  background-image: url("../images/premium_dancer.png");
+  background-image: url('../images/premium_dancer.png');
   background-repeat: no-repeat;
   background-size: 400px;
   background-color: cornflowerblue;
@@ -73,6 +80,7 @@
   padding: 10px;
   justify-content: center;
   margin: 40px 0 40px 0;
+  border-radius: 40px;
 }
 
 .letra_peq {
@@ -120,4 +128,21 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 2;
+}
+.menus {
+  display: inline-block;
+}
+.enlace_footer {
+  color: gray;
+  text-decoration: none;
+  margin: 6px;
+}
+.texto_der {
+  text-align: right;
+}
+.bandera {
+  width: 20px;
+}
+.texro_espana {
+  margin-bottom: 10px;
 }
