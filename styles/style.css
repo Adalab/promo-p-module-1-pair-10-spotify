@@ -2,38 +2,52 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 .intro {
   background-color: black;
-  color: white;
-  padding: 20px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
 }
-.lista {
-  list-style: none;
+.logo {
+  width: 150px;
+  display: inline-block;
 }
 .menu {
+  list-style: none;
+}
+
+.menu_item {
   display: inline-block;
 }
 
 .link {
-  color: white;
   text-decoration: none;
   margin: 0 10px;
+  color: white;
 }
 .footer {
   background-color: black;
+  font-size: 14px;
   color: gray;
   padding: 40px 20px 50px 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+.menu_footer {
+  display: inline-block;
+}
+.link_footer {
+  color: gray;
+  text-decoration: none;
+  margin: 6px;
 }
 
 .menu_item_footer {
@@ -41,52 +55,50 @@
   text-decoration: none;
   display: inline-block;
 }
-
-.logo {
-  width: 150px;
-  display: inline-block;
+.texto_der {
+  text-align: right;
 }
-
-.menu_item {
-  display: inline-block;
+.bandera {
+  width: 20px;
+}
+.texto_espana {
+  margin-bottom: 10px;
 }
 
 .section_imagen {
-  background-image: url('../images/premium_dancer.png');
-  background-repeat: no-repeat;
-  background-size: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   background-color: cornflowerblue;
-  background-position: bottom right;
   width: 100%;
 
-  padding: 20px;
   color: white;
 }
-.titulo_grande {
-  font-size: 80px;
-  width: 70%;
-  margin: 60px 0 0 0;
+
+.titulo_principal {
+  font-size: 3rem;
+  margin-top: 8rem;
 }
 
-.titulo_2 {
-  font-size: 35px;
-  margin: 40px 0 40px 0;
+.titulo_secundario {
+  font-size: 1.5rem;
+  margin: 1.25rem 0;
 }
 
 .boton {
   background-color: limegreen;
-  width: 150px;
+  width: 100%;
   display: flex;
   padding: 10px;
   justify-content: center;
-  margin: 40px 0 40px 0;
+  margin: 1.25rem 0;
   border-radius: 40px;
 }
 
 .letra_peq {
-  font-size: 12px;
-  width: 43%;
-  margin: 0 0 20px 0;
+  font-size: 0.7rem;
+
+  margin: 1.25rem 0;
 }
 
 .titulo_premium {
@@ -99,50 +111,34 @@
 
 .condiciones {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
   justify-content: space-around;
   padding: 60px 0 60px 0;
 }
-.icono1,
-.icono2,
-.icono3,
-.icono4 {
-  text-align: center;
+.icono {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
-.icono1 {
-  width: 25%;
-}
-.icono2 {
-  width: 25%;
-}
-.icono3 {
-  width: 25%;
-}
-.icono4 {
-  width: 25%;
-}
+
 .img_beneficts {
-  width: 50%;
+  width: 25%;
 }
 .subtitulos {
+  width: 100%;
+
   font-weight: bold;
   font-size: 20px;
-  line-height: 2;
+  line-height: 1.5;
 }
-.menus {
-  display: inline-block;
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
-.enlace_footer {
-  color: gray;
-  text-decoration: none;
-  margin: 6px;
+
+@media all and (min-width: 480px) {
 }
-.texto_der {
-  text-align: right;
-}
-.bandera {
-  width: 20px;
-}
-.texro_espana {
-  margin-bottom: 10px;
+
+@media all and (min-width: 1000px) {
 }
