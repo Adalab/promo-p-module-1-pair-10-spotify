@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
@@ -14,6 +14,7 @@
   align-items: center;
   position: sticky;
   top: 0;
+  padding: 20px;
 }
 .logo {
   width: 150px;
@@ -21,6 +22,7 @@
 }
 .menu {
   list-style: none;
+  display: none;
 }
 
 .menu_item {
@@ -107,6 +109,7 @@
   justify-content: center;
   display: flex;
   margin: 0 0 60px 0;
+  text-align: center;
 }
 
 .condiciones {
@@ -137,7 +140,62 @@
   margin: 0 auto;
 }
 
+.condiciones-tex {
+  padding: 25px;
+}
+
+.texto-fot {
+  max-width: 250px;
+  display: flex;
+}
+.burguer {
+  width: 40px;
+}
+
+.condiciones_todas {
+  display: flex;
+}
+
 @media all and (min-width: 480px) {
+  .burguer {
+    display: none;
+  }
+  .menu {
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+  .section_imagen {
+    background-image: url('../images/premium_dancer.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  .titulo_principal {
+    margin-top: 4rem;
+  }
+  .boton {
+    width: 25%;
+  }
+
+  .condiciones_todas {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+  }
+  .icono {
+    width: 50%;
+  }
+
+  .img_beneficts {
+    width: 80px;
+    height: 80px;
+  }
+
+  .texto-fot {
+    max-width: 90%;
+  }
 }
 
 @media all and (min-width: 1000px) {

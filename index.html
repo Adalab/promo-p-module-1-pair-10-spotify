@@ -15,20 +15,24 @@
   </head>
   <body>
     <header class="intro">
-      <div class="wrapper">
-        <img class="logo" src="./images/logo.png" alt="logotipo de spotify" />
-        <nav class="menu">
-          <ul>
-            <li class="menu_item"><a class="link" href="">Premium</a></li>
-            <li class="menu_item"><a class="link" href="">Ayuda</a></li>
-            <li class="menu_item"><a class="link" href="">Descargar</a></li>
-            <li class="menu_item"><a class="link" href="">Registrarse</a></li>
-            <li class="menu_item">
-              <a class="link" href="">Iniciar sesión</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <img
+        class="burguer"
+        src="./images/menu-icon.png"
+        alt="menu hamburguesa"
+      />
+      <img class="logo" src="./images/logo.png" alt="logotipo de spotify" />
+
+      <nav class="menu">
+        <ul>
+          <li class="menu_item"><a class="link" href="">Premium</a></li>
+          <li class="menu_item"><a class="link" href="">Ayuda</a></li>
+          <li class="menu_item"><a class="link" href="">Descargar</a></li>
+          <li class="menu_item"><a class="link" href="">Registrarse</a></li>
+          <li class="menu_item">
+            <a class="link" href="">Iniciar sesión</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="section_imagen">
@@ -46,34 +50,41 @@
         </div>
       </section>
 
-      <section class="condiciones">
-        <div class="wrapper">
-          <h1 class="titulo_premium">¿Por qué pasarte a premium?</h1>
+      <section class="condiciones wrapper">
+        <h1 class="titulo_premium">¿Por qué pasarte a premium?</h1>
+        <div class="condiciones_todas">
           <article class="icono">
             <img class="img_beneficts" src="./images/benefit-1.png" alt="" />
-            <p class="subtitulos">Descarga música</p>
-            <p>Llévala siempre contigo</p>
+            <div class="condiciones-tex">
+              <p class="subtitulos">Descarga música</p>
+              <p>Llévala siempre contigo</p>
+            </div>
           </article>
           <article class="icono">
             <img class="img_beneficts" src="./images/benefit-2.png" alt="" />
-            <p class="subtitulos">Sin anuncios</p>
-            <p>Disfruta de música sin interrupciones</p>
+            <div class="condiciones-tex">
+              <p class="subtitulos">Sin anuncios</p>
+              <p>Disfruta de música sin interrupciones</p>
+            </div>
           </article>
           <article class="icono">
             <img class="img_beneficts" src="./images/benefit-3.png" alt="" />
-            <p class="subtitulos">Escucha lo que quieras</p>
-            <p>Incluso en el móvil</p>
+            <div class="condiciones-tex">
+              <p class="subtitulos">Escucha lo que quieras</p>
+              <p>Incluso en el móvil</p>
+            </div>
           </article>
           <article class="icono">
             <img class="img_beneficts" src="./images/benefit-4.png" alt="" />
-            <p class="subtitulos">Salta todas las canciones que quieras</p>
-            <p>Simplemente dale a siguiente</p>
+            <div class="condiciones-tex">
+              <p class="subtitulos">Salta todas las canciones que quieras</p>
+              <p>Simplemente dale a siguiente</p>
+            </div>
           </article>
-        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="wrapper">
+      <div class="texto-fot">
         <nav class="menu_footer">
           <ul>
             <li class="menu_item_footer">
@@ -87,12 +98,12 @@
             </li>
           </ul>
         </nav>
-        <div class="texto_der">
-          <p class="texto_espana">
-            España <img class="bandera" src="./images/es.svg" alt="" />
-          </p>
-          <p>2019 Spotify AB</p>
-        </div>
+      </div>
+      <div class="texto_der">
+        <p class="texto_espana">
+          España <img class="bandera" src="./images/es.svg" alt="" />
+        </p>
+        <p>2019 Spotify AB</p>
       </div>
     </footer>
   </body>
